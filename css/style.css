@@ -25,6 +25,8 @@ body {
 header {
     margin: 1.5em 0;
     padding: 0 2em;
+    color: white;
+    text-shadow: 0 0 .2em rgb(0, 0, 0,  .3);
 }
 
 h1 {
@@ -113,7 +115,7 @@ input, select {
 
 .small {
     font-size: .7em;
-    margin-left: .2em;
+    margin-left: .4em;
 }
 
 #submit {
@@ -129,7 +131,7 @@ input, select {
 textarea {
     min-width: 100%;
     max-width: 100%;
-    min-height: 10em;
+    min-height: 8em;
     margin: .2em 0 1.2em;
 }
 
