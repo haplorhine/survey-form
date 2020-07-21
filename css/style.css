@@ -10,7 +10,7 @@ body {
         rgba(84, 181, 210, 0)
     ) fixed,
 
-    url("https://source.unsplash.com/GA09PKfRIQY/1600x1200.jpg") no-repeat center center fixed;
+    url("https://source.unsplash.com/UMJUr3st0AE/2400x1586") no-repeat center center fixed;
  
     background-size: cover;
     
@@ -42,7 +42,7 @@ h1 {
 }
 
 #survey-form {
-    background: rgb(11, 99, 126);
+    background: rgba(11, 99, 126, 0.8);
     color: white;
     padding: 2em;
     margin: 0 auto;
