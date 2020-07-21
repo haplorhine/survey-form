@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Survey Form (freeCodeCamp Responsive Web Design Project)</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <header>
+        <h1 id="title">How do you like this form?</h1>
+        <p id="description">Thanks for taking the time checking out this portfolio item!</p>
+    </header>
+    
+
+    <form action="" id="survey-form">
+
+        <div class="text-inputs">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" required placeholder="please enter your name">
+        
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" required placeholder="please enter your email address">
+
+            <label for="number" id="number-label">Age<span class="small">(optional)</span></label>
+            <input type="number" min="1" max="130" id="number" placeholder="please enter your age">
+        </div>
+
+            <p class="input-title">Why are you checking out this form?</p>
+            <select name="" id="dropdown">
+                <option value="" disabled selected>select an option</option>
+                <option value="bored">because I'm bored.</option>
+                <option value="love">because I love forms</option>
+                <option value="lol">something else</option>
+            </select>
+        
+        <div class="inputs">
+            <p class="input-title">Which option do you like the most?</p>
+            <div class="radio-input">
+                <input type="radio" id="opt1" value="option1" name="option-group1">
+                <label for="opt1">option1</label>
+            </div>
+            <div class="radio-input">
+                <input type="radio" id="opt2" value="option2" name="option-group1">
+                <label for="opt2">option2</label>
+            </div>
+        </div>
+        
+        <div class="inputs">
+                <p class="input-title">Which fruits do you like?<span class="small">(check all that apply)</span></p>
+            
+            <div class="checkbox-input">
+                <input type="checkbox" id="apple" value="apples" name="fruit">
+                <label for="apple">apples</label>
+            </div>
+            
+            <div class="checkbox-input">
+                <input type="checkbox" id="pears" value="pears" name="fruit">
+                <label for="pears">pears</label>
+            </div>
+
+            <div class="checkbox-input">
+                <input type="checkbox" id="cherries" value="cherries" name="fruit">
+                <label for="cherries">cherries</label>
+            </div>
+        </div>
+        
+
+        <textarea name="" id=""></textarea>
+
+
+
+        <input type="submit" id="submit" value="abschicken">
+    </form>
+    
+</body>
+</html>
