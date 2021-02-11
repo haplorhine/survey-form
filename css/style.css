@@ -9,7 +9,7 @@ body {
         rgba(84, 181, 210, 0.79),
         rgba(84, 181, 210, 0)
     ) fixed,
-    url("https://source.unsplash.com/UMJUr3st0AE/2400x1586") no-repeat center center / cover fixed;
+    url("../bilder/hintergrund.jpeg") no-repeat center center / cover fixed;
 }
 
 @media screen and (min-width: 600px) {
